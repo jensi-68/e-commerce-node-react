@@ -10,10 +10,7 @@ export default function Login() {
   const handleSubmit = async (event)=>{
       event.preventDefault();
       const data = {password,email}
-      if(password || email ==='')
-      { 
-        alert('enter the data')
-      }
+      
       console.log(data);
       // axios.post('http://localhost:4000/api/login',data,{
       //     headers: {
